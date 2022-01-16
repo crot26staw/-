@@ -387,19 +387,16 @@ footer{
     color: #525252;
 }
 
-/* Страница Каталог */
 
-.catalog_header{
+/*Навигация на все второстепенные сраницы*/
+.for-all_header{
     height: 181px;
     background: #C4C4C4;
 }
-.catalog_header_container{
+.for-all_header_container{
     padding-top: 60px;
 }
-#catalog-product{
-    margin-top: -60px;
-}
-.return_catalog{
+.return{
     margin-bottom: 30px;
     font-weight: 500;
     font-size: 14px;
@@ -407,6 +404,13 @@ footer{
     text-transform: lowercase;
     color: #000000;
 }
+
+/* Страница Каталог */
+
+#catalog-product{
+    margin-top: -60px;
+}
+
 .return_catalog>a{
     text-decoration: none;
     color: #422774;
@@ -419,4 +423,33 @@ footer{
 }
 #catalog-footer{
     margin-top: 105px;
+}
+
+/*Наша продукция*/
+
+#our-production-product{
+    margin-top: -60px;
+}
+.video-product{
+    display: block;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+#our-production-footer{
+    margin-top: 53px;
+}
+
+/*Партнёрам*/
+#partner-product{
+    margin-top: -60px;
+}
+#partner-footer{
+    margin-top: 53px;
+}
+/*О компании*/
+#about-company-product{
+    margin-top: -60px;
+}
+#about-company-footer{
+    margin-top: 53px;
 }
