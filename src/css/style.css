@@ -11,7 +11,7 @@
 span{
     color: #3F2774;
 }
-header{
+.header{
     height: 647px;
     background: url(../img/BG/head.jpg) center center/cover no-repeat;
 }
@@ -385,4 +385,38 @@ footer{
     font-size: 14px;
     line-height: 17px;
     color: #525252;
+}
+
+/* Страница Каталог */
+
+.catalog_header{
+    height: 181px;
+    background: #C4C4C4;
+}
+.catalog_header_container{
+    padding-top: 60px;
+}
+#catalog-product{
+    margin-top: -60px;
+}
+.return_catalog{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: lowercase;
+    color: #000000;
+}
+.return_catalog>a{
+    text-decoration: none;
+    color: #422774;
+}
+.return_catalog>a:hover{
+    text-decoration: underline;
+}
+#catalog-implement{
+    margin-top: -47px;
+}
+#catalog-footer{
+    margin-top: 105px;
 }
