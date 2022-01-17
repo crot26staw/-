@@ -12,13 +12,13 @@
     <header class="for-all_header">
         <section class="container for-all_header_container">
             <nav>
-                <img src="../icons/logo.svg" alt="logo" class="header_logo">
+                <a href="../index.html"><img src="../icons/logo.svg" alt="logo" class="header_logo"></a>
                 <ul class="menu_header">
                     <li><a class="text-menu_header" href="_catalog.html">КАТАЛОГ</a></li>
                     <li><a class="text-menu_header" href="_our-production.html">НАШЕ ПРОИЗВОДСТВО</a></li>
                     <li><a class="text-menu_header" href="_partner.html">ПАРТНЕРАМ</a></li>
-                    <li><a class="text-menu_header" href="#">О КОМПАНИИ</a></li>
-                    <li><a class="text-menu_header" href="#">КОНТАКТЫ</a></li>
+                    <li><a class="text-menu_header" href="_about-company.html">О КОМПАНИИ</a></li>
+                    <li><a class="text-menu_header" href="_contact.html">КОНТАКТЫ</a></li>
                 </ul>
                 <div class="location_header">
                     <div class="city_header">г. Невинномысск</div>
@@ -52,15 +52,17 @@
             <section class="container feedback_container">
                 <h2 class="feedback_title">ЗАРАБАТЫВАЙ ВМЕСТЕ <span>С НАМИ</span></h2>
                 <div class="feedback_subtitle">Заполни форму ниже и получи индивидуальное предложение</div>
-                <div class="feedback_wraper">
-                    <input name=name type="text" placeholder="ИМЯ">
-                    <input name=phone type="text" placeholder="ТЕЛЕФОН">
-                    <button class="feedback_btn">Получить</button>
-                </div>
-                <div class="feedback_consent-wrapepr">
-                    <input class="feedback_checkbox" type="checkbox">
-                    <div class="feedback_consent">Нажимая кнопку получить я даю согласие на обработку моих <a href="#">персональных данных</a></div>
-                </div>
+                <form action="#">
+                    <div class="feedback_wraper">
+                        <input name=name required type="text" placeholder="ИМЯ">
+                        <input name=phone required type="number" placeholder="ТЕЛЕФОН">
+                        <button class="feedback_btn">Получить</button>
+                    </div>
+                    <div class="feedback_consent-wrapepr">
+                        <input class="feedback_checkbox" required type="checkbox">
+                        <div class="feedback_consent">Нажимая кнопку получить я даю согласие на обработку моих <a href="#">персональных данных</a></div>
+                    </div>
+                </form>
                 <img class="feedback_img" src="../img/Images/spreadsheet_1.png" alt="img">
             </section>
         </section>
@@ -70,20 +72,20 @@
         <div class="container footer_container">
             <img src="../icons/logo_footer.svg" alt="logo" class="logo_footer">
             <ul class="footer_list-info">
-                <li><a href="#">КАТАЛОГ</a></li>
-                <li><a href="#">НАШЕ ПРОИЗВОДСТВО</a></li>
-                <li><a href="#">ПАРТНЕРАМ</a></li>
-                <li><a href="#">О КОМПАНИИ</a></li>
-                <li><a href="#">КОНТАКТЫ</a></li>
+                <li><a href="_catalog.html">КАТАЛОГ</a></li>
+                <li><a href="_our-production.html">НАШЕ ПРОИЗВОДСТВО</a></li>
+                <li><a href="_partner.html">ПАРТНЕРАМ</a></li>
+                <li><a href="_about-company.html">О КОМПАНИИ</a></li>
+                <li><a href="_contact.html">КОНТАКТЫ</a></li>
             </ul>
             <ul class="footer_list-service">
-                <li><a href="#">Потолочные панели</a></li>
-                <li><a href="#">Фотопечать на панелях</a></li>
-                <li><a href="#">Термопереводная панель</a></li>
-                <li><a href="#">Матовые панели</a></li>
-                <li><a href="#">Лакированная панели</a></li>
-                <li><a href="#">Подоконники</a></li>
-                <li><a href="#">Фурнитура</a></li>
+                <li><a href="_photo-printing.html">Потолочные панели</a></li>
+                <li><a href="_photo-printing.html">Фотопечать на панелях</a></li>
+                <li><a href="_photo-printing.html">Термопереводная панель</a></li>
+                <li><a href="_photo-printing.html">Матовые панели</a></li>
+                <li><a href="_photo-printing.html">Лакированная панели</a></li>
+                <li><a href="_photo-printing.html">Подоконники</a></li>
+                <li><a href="_photo-printing.html">Фурнитура</a></li>
             </ul>
             <div class="footer_location-wrapepr">
                 <div class="location_footer">
