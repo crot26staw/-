@@ -23,6 +23,9 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+.nav_loc-wrapper{
+    display: flex;
+}
 .menu_header{
     margin-top: 18px;
     width: 690px;
@@ -43,6 +46,7 @@ nav{
 }
 .location_header{
     text-align: right;
+    margin-right: 30px;
 }
 .city_header{
     font-weight: bold;
@@ -219,6 +223,9 @@ h1{
     line-height: 26px;
     text-transform: uppercase;
     color: #393939;
+}
+.feedback_title>span{
+    z-index: 3;
 }
 .feedback_subtitle{
     margin-top: 30px;
@@ -547,4 +554,233 @@ iframe{
     line-height: 40px;
     cursor: pointer;
     color: #3F2774;
+}
+
+/*Адаптив*/
+@media(max-width: 1279px){
+    .container{
+        width: 1140px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav_loc-wrapper{
+        display: block;
+    }
+    .contact_header{
+        margin-right: 20px;
+    }
+    .location_header{
+        margin-right: 20px;
+    }
+    .item_product{
+        width: 365px;
+    }
+    .item_product>img{
+        width: 100%;
+    }
+    .footer_list-info{
+        margin-top: 30px;
+        margin-left: 160px;
+    }
+    .footer_location-wrapepr{
+        margin-right: 20px;
+        margin-left: 205px;
+    }
+    .video-product{
+        width: 100%;
+    }
+    .photo-printing-img>img{
+        width: 270px;
+    }
+}
+
+@media(max-width: 1139px){
+    .container{
+        width: 992px;
+    }
+    .contact_header{
+        margin-right: 0px;
+    }
+    .location_header{
+        margin-right: 0px;
+    }
+    .menu_header{
+        width: 630px;
+    }
+    .text-menu_header{
+        font-size: 16px;
+    }
+    .city_header{
+        font-size: 18px;
+    }
+    .street_header{
+        font-size: 13px;
+    }
+    .phone_header{
+        font-size: 18px;
+    }
+    .hotline_header{
+        font-size: 13px;
+    }
+    .title_header{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .item_product{
+        width: 317px;
+    }
+    .feedback_img{
+        display: none;
+    }
+    .presentation_container>img{
+        max-width: 500px;
+    }
+    .footer_list-info{
+        margin-left: 70px;
+    }
+    .footer_location-wrapepr{
+        margin-left: 60px;
+    }
+    .photo-printing-img>img{
+        width: 230px;
+    }
+    .feedback_container{
+        max-width: 972px;
+    }
+    .feedback_wraper{
+        max-width: 965px;
+    }
+}
+
+@media(max-width: 991px){
+    .container{
+        width: 768px;
+    }
+    .menu_header{
+        width: 475px;
+    }
+    .text-menu_header{
+        font-size: 13px;
+    }
+    .city_header{
+        font-size: 15px;
+    }
+    .street_header{
+        font-size: 10px;
+    }
+    .phone_header{
+        font-size: 15px;
+    }
+    .hotline_header{
+        font-size: 10px;
+    }
+    .title_header{
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .header_btn{
+        display: block;
+        margin-left: 17%;
+        width: 500px;
+        height: 82px;
+        border-radius: 100px 100px 100px 100px;
+    }
+    .title_product{
+        font-size: 30px;
+    }
+    .button_product{
+        width: 100%;
+    }
+    .item_product{
+        width: 244px;
+    }
+    .item_product_header{
+        font-size: 17px;
+    }
+    .implement_container{
+        margin: 0;
+        
+    }
+    .implement_container>img{
+        width: 350px;
+    }
+    .implement_wrapper{
+        margin-left: 35px;
+    }
+    .feedback_container{
+        max-width: 748px;
+    }
+    .feedback_title{
+        font-size: 38px;
+    }
+    .feedback_wraper>input{
+        width: 230px;
+        height: 55px;
+    }
+    .feedback_wraper>button{
+        width: 230px;
+        height: 55px;
+    }
+    .feedback_consent{
+        font-size: 15px;
+    }
+    .presentation_container>img{
+        max-width: 350px;
+        height: 300px;
+    }
+    .presentation_title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .presentation_subtitle{
+        max-width: 396px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .footer_list-info{
+        margin-left: 50px;
+    }
+    .footer_list-service{
+        margin-left: 50px;
+    }
+    .footer_location-wrapepr{
+        margin-left: 50px;
+        margin-right: 0;
+    }
+    .footer_container-li{
+        font-size: 13px;
+    }
+    .footer_container>ul>li>a{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .city_footer{
+        font-size: 15px;
+    }
+    .street_footer{
+        font-size: 10px;
+    }
+    .phone_footer{
+        font-size: 15px;
+    }
+    .hotline_footer{
+        font-size: 10px;
+    }
+    .video-product{
+        height: 400px;
+    }
+    #contact-product{
+        flex-wrap: wrap;
+    }
+    .contact-product-map{
+        width: 100%;
+    }
+    iframe{
+        margin-top: 30px;
+    }
+    .photo-printing-img>img{
+        width: 240px;
+    }
 }
